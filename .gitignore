@@ -1,0 +1,11 @@
+#.gitignore file for Project X [Vagrant]
+# Mark Higginbottom
+#somedir/[^empty.txt]* ignore everything in somedir directory except for empty.txt file
+#
+.vagrant
+/shared/ansible/roles
+/shared/ansible/site.retry
+/shared/ansible/site.yml~
+/shared/dev
+/shared/certificates/[^empty.txt]*
+/shared/util/ssh-keys/.ssh/*
